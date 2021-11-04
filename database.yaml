@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: database
+spec:
+  containers:
+  - name: mysql
+    image: PUT_YOUR_DATABASE_IMAGE_HERE
+    ports:
+    - containerPort: 3306
